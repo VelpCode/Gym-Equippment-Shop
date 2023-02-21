@@ -28,15 +28,28 @@ body {
 }
 
 #search-container input:focus {
-    border-bottom-color: #6759ff
+    border-bottom-color: #FF7262
 }
 
 #search-container button {
     padding: 1em 2em;
     margin-left: 1em;
-    background-color: #6759ff;
+    background-color: #FF7262;
     color: #ffffff;
     border-radius: 5px;
     margin-top: 0.5em;
 }
 
+.button-value {
+    border: 2px solid #FF7262;
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #FF7262;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #6759ff;
+    color: #ffffff;
+}
