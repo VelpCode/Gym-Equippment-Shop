@@ -5,26 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel = "stylesheet"/>
-    <link rel = "stylesheet" href = "styles.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class = "wrapper">
-        <div id = "search-container">
-            <input type = "search" id = "search-input"
-            placeholder = "Search product name here.."
-            />
-            <button id = "search">Search</button>
+    <div class = "container">
+    <navbar class = "docu"><img class = "velpcode" src = "img/VelpShopTp.png"></navbar>
+    <div class="wrapper">
+        <div id="search-container">
+          <input
+            type="search"
+            id="search-input"
+            placeholder="Search product name here.."
+          />
+          <button id="search">Search</button>
         </div>
-        <div id = "buttons">
-            <button class = "button-value">All</button>
-            <button class = "button-value">Weights/Machines</button>
-            <button class = "button-value">Supplements</button>
-            <button class = "button-value">Equippment/Wear</button>
-            <button class = "button-value">Accessories</button> 
+        <div id="buttons">
+          <button class="button-value" onclick="filterProduct('All')">All</button>
+          <button class="button-value" onclick="filterProduct('Weights/Machines')">
+            Weights/Machines
+          </button>
+          <button class="button-value" onclick="filterProduct('Supplements')">
+            Supplements
+          </button>
+          <button class="button-value" onclick="filterProduct('Equippment/Wear')">
+            Equippment/Wear
+          </button>
+          <button class="button-value" onclick="filterProduct('Accessories')">
+            Accessories
+          </button>
         </div>
-        <div id = "products"></div>
-    </div>
-    <script src = "script.js"></script>
-</body>
-</html>
+        <div id="products"></div>
+      </div>
+      </div>
+      <!-- Script -->
+      <script src="script.js"></script>
+    </body>
+  </html>
