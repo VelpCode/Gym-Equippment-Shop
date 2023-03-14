@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 0;
+    margin: 10px;
     box-sizing: border-box;
     border: none;
     outline: none;
@@ -23,6 +23,10 @@
     cursor: pointer;
   }
   
+nav {
+  display: flex;
+  justify-content: space-between;
+}
 
   #search-container input {
     background-color: transparent;
