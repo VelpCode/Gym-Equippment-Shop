@@ -101,8 +101,6 @@ function moveBackground(event) {
       y * boolInt
     }px) rotate(${xRot * boolInt}deg)`;
   }
-
-
   
 }
 
