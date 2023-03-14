@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class = "container">
-    <navbar class = "docu"><img class = "velpcode" src = "img/VelpShopTp.png"></navbar>
+    <nav class = "docu"><img class = "velpcode" src = "img/VelpShopTp.png"> <img src = "img/moon.png" id = "icon"></nav>
     <div class="wrapper">
         <div id="search-container">
           <input
@@ -24,6 +24,13 @@
           />
           <button id="search">Search</button>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+        <script>
+            function addDarkmodeWidget() {
+            new Darkmode().showWidget();
+            }
+          window.addEventListener('load', addDarkmodeWidget);
+        </script>
         <div id="buttons">
           <button class="button-value" onclick="filterProduct('All')">All</button>
           <button class="button-value" onclick="filterProduct('Weights/Machines')">

@@ -16,6 +16,14 @@
   #search-container {
     margin: 1em 0;
   }
+
+  #icon {
+    height: 50px;
+    width: 30px;
+    cursor: pointer;
+  }
+  
+
   #search-container input {
     background-color: transparent;
     width: 40%;
